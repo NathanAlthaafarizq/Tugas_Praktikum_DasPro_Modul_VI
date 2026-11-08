@@ -49,7 +49,7 @@ clrscr;
     write('Masukkan Batas Suku: '); // Input Batas Suku 
     readln(n);
 
-    write('a. Fibonacci      : ' );                   // Suku Fibonacci
+    write('a. ' );                   // Suku Fibonacci
     for i := 1 to n do                // Pengulangan Sampai Suku ke - n
     begin
         write(Fibonacci(i));          // Memanggil Function Fibonacci
@@ -57,7 +57,7 @@ clrscr;
     end;
     writeln;
 
-    write('b. Perkalian Dua  : ' );                   // Suku Perkalian Dua
+    write('b. ' );                   // Suku Perkalian Dua
     for i := 1 to n do                // Pengulangan Sampai Suku ke - n
     begin
         write(KaliDua(i));            // Memanggil Function KaliDua
@@ -65,7 +65,7 @@ clrscr;
     end;
     writeln;
 
-    write('c. Kuadrat        : ' );                    // Suku Kuadrat
+    write('c. ' );                    // Suku Kuadrat
     for i := 1 to n do                 // Pengulangan Sampai Suku ke - n
     begin
         write(Kuadrat(i));             // Memanggil Function Kuadrat
@@ -73,7 +73,7 @@ clrscr;
     end;
     writeln;
 
-    write('d. Kali Berurutan : ' );                    // Suku Kali Berurutan
+    write('d. ' );                    // Suku Kali Berurutan
     for i := 1 to n do                 // Pengulangan Sampai Suku ke - n
     begin
         write(KaliBerurutan(i));       // Memanggil Function KaliBerurutan
