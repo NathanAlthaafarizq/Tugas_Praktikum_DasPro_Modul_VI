@@ -49,35 +49,35 @@ clrscr;
     write('Masukkan Batas Suku: '); // Input Batas Suku 
     readln(n);
 
-    write('a.' );                   // Suku Fibonacci
-    for i := 1 to n do              // Pengulangan Sampai Suku ke - n
+    write('a. Fibonacci      : ' );                   // Suku Fibonacci
+    for i := 1 to n do                // Pengulangan Sampai Suku ke - n
     begin
-        write(Fibonacci(i));        // Memanggil Function Fibonacci
-        if i < n then write( ',' ); // Jika Suku Lebih Kecil daripada Suku ke - n maka dibatasi " , "
+        write(Fibonacci(i));          // Memanggil Function Fibonacci
+        if i < n then write( ' , ' ); // Jika Suku Lebih Kecil daripada Suku ke - n maka dibatasi " , "
     end;
     writeln;
 
-    write('b.' );                   // Suku Perkalian Dua
-    for i := 1 to n do              // Pengulangan Sampai Suku ke - n
+    write('b. Perkalian Dua  : ' );                   // Suku Perkalian Dua
+    for i := 1 to n do                // Pengulangan Sampai Suku ke - n
     begin
-        write(KaliDua(i));          // Memanggil Function KaliDua
-        if i < n then write( ',');  // Jika Suku Lebih Kecil daripada Suku ke - n maka dibatasi " , "
+        write(KaliDua(i));            // Memanggil Function KaliDua
+        if i < n then write( ' , ');  // Jika Suku Lebih Kecil daripada Suku ke - n maka dibatasi " , "
     end;
     writeln;
 
-    write('c.' );                    // Suku Kuadrat
-    for i := 1 to n do               // Pengulangan Sampai Suku ke - n
+    write('c. Kuadrat        : ' );                    // Suku Kuadrat
+    for i := 1 to n do                 // Pengulangan Sampai Suku ke - n
     begin
-        write(Kuadrat(i));           // Memanggil Function Kuadrat
-        if i < n then write( ',' );  // Jika Suku Lebih Kecil daripada Suku ke - n maka dibatasi " , "
+        write(Kuadrat(i));             // Memanggil Function Kuadrat
+        if i < n then write( ' , ' );  // Jika Suku Lebih Kecil daripada Suku ke - n maka dibatasi " , "
     end;
     writeln;
 
-    write('d.' );                    // Suku Kali Berurutan
-    for i := 1 to n do               // Pengulangan Sampai Suku ke - n
+    write('d. Kali Berurutan : ' );                    // Suku Kali Berurutan
+    for i := 1 to n do                 // Pengulangan Sampai Suku ke - n
     begin
-        write(KaliBerurutan(i));     // Memanggil Function KaliBerurutan
-        if i < n then write( ',' );  // Jika Suku Lebih Kecil daripada Suku ke - n maka dibatasi " , "
+        write(KaliBerurutan(i));       // Memanggil Function KaliBerurutan
+        if i < n then write( ' , ' );  // Jika Suku Lebih Kecil daripada Suku ke - n maka dibatasi " , "
     end;
     writeln;
     readln;
